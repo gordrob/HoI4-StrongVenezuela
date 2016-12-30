@@ -5,28 +5,23 @@ state={
 	
 	state_category = city
 	
-	manpower = 50000000
+	manpower = 1335010
 	resources={
-		oil=999
-		tungsten=999
-		rubber=999
-		steel=999
-		aluminium=999
-		chromium=999
+		oil=58
 	}
 
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 10
-			arms_factory = 10
-			industrial_complex = 10
-			air_base = 10
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
 			8113 = {
-				naval_base = 10
+				naval_base = 3
 			}
 			10912 = {
-				naval_base = 10
+				naval_base = 2
 			}
 		}
 		add_core_of = VEN
