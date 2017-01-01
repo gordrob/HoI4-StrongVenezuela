@@ -2,15 +2,25 @@
 state={
 	id=488
 	name="STATE_488"
-	manpower = 245642
+	manpower = 50000000
+	resources={
+		oil=999
+ 		tungsten=999
+ 		rubber=999
+ 		steel=999
+ 		aluminium=999
+ 		chromium=999
+	}
 	
 	state_category = megalopolis
 
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 10
+			arms_factory = 6
+			industrial_complex = 6
+			air_base = 10
 		}
 		add_core_of = VEN
 	}
