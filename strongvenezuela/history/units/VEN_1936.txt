@@ -149,9 +149,9 @@ units = {
 		name = "Venezuela Fleet 1"				
 		base = 8113
 		location = 8113 # Capital
-		ship = { name = "VHS Diego" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEN } } }				
-		ship = { name = "VHS Carlos" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEN } } }				
-		ship = { name = "VHS Dora" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = VEN } } }				
+		ship = { name = "VHS Diego" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
+		ship = { name = "VHS Carlos" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
+		ship = { name = "VHS Dora" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
 	}
 	
 	##### No notable air forces #####
