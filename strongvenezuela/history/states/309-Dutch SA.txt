@@ -2,21 +2,29 @@
 state={
 	id=309
 	name="STATE_309"
-	manpower = 152000
+	state_category = megalopolis
+	
+	manpower = 50000000
 
 	resources={
-		aluminium=12
+		oil=999
+ 		tungsten=999
+ 		rubber=999
+ 		steel=999
+ 		aluminium=999
+ 		chromium=999
 	}	
-	
-	state_category = rural
 
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 10
+			arms_factory = 6
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 10
 			12828 = {
-				naval_base = 1
+				naval_base = 10
 			}
 		}
 		add_core_of = VEN

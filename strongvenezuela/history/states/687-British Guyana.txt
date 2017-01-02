@@ -1,20 +1,29 @@
 state={
 	id=687
 	name="STATE_687"
-	manpower = 309000
+	state_category = megalopolis
 	
-	state_category = pastoral
-	
+	manpower = 50000000
+
 	resources={
-		aluminium=112
+		oil=999
+ 		tungsten=999
+ 		rubber=999
+ 		steel=999
+ 		aluminium=999
+ 		chromium=999
 	}
 
 	history={
 		owner = VEN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 10
+			arms_factory = 6
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 10
 			4982 = {
-				naval_base = 1
+				naval_base = 10
 			}
 		}
 		add_core_of = VEN
