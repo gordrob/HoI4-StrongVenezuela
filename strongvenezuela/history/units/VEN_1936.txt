@@ -149,14 +149,75 @@ units = {
 		name = "Venezuela Fleet 1"				
 		base = 8113
 		location = 8113 # Capital
+		ship = { name = "VHS Jesus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = VEN } } }				
+		ship = { name = "VHS Dada" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS El Diablo" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = VEN } } }
 		ship = { name = "VHS Diego" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
 		ship = { name = "VHS Carlos" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
 		ship = { name = "VHS Dora" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
+		ship = { name = "VHS Volcano" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = VEN } } }				
+		ship = { name = "VHS Aba" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Baba" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Cheeba" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Doda" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Carla" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Erla" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Ferla" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
+		ship = { name = "VHS Gogo" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = VEN } } }
 	}
-	
-	##### No notable air forces #####
 }
 
+##### Air Force #####
+air_wings = {
+	307 = {
+		# heavy fighters
+		heavy_fighter_equipment_1 = {
+			owner = "VEN" 
+			amount = 100
+		}
+		heavy_fighter_equipment_1 = {
+			owner = "VEN" 
+			amount = 100
+		}
+		heavy_fighter_equipment_1 = {
+			owner = "VEN" 
+			amount = 100
+		}
+		heavy_fighter_equipment_1 = {
+			owner = "VEN" 
+			amount = 100
+		}
+		heavy_fighter_equipment_1 = {
+			owner = "VEN" 
+			amount = 100
+		}
+		# tactical bombers
+		tac_bomber_equipment_0 = {
+			owner = "VEN"
+			amount = 100
+		}
+		tac_bomber_equipment_0 = {
+			owner = "VEN"
+			amount = 100
+		}
+		tac_bomber_equipment_0 = {
+			owner = "VEN"
+			amount = 100
+		}
+		tac_bomber_equipment_0 = {
+			owner = "VEN"
+			amount = 100
+		}
+		tac_bomber_equipment_0 = {
+			owner = "VEN"
+			amount = 100
+		}
+		tac_bomber_equipment_0 = {
+			owner = "VEN"
+			amount = 100
+		}
+	}
+}
 
 
 instant_effect = {
